@@ -17,7 +17,7 @@ fn calories_per_elf(input_vec: Vec<&str>) -> Vec<i64> {
 }
 
 pub fn total_calories_for_top_3() {
-    let problem_input = read_input("./src/input/files/day1_problem1.txt");
+    let problem_input = read_input("./src/input/files/day1.txt");
     let input_vec = problem_input.split("\n").collect::<Vec<&str>>();
 
     let mut elf_calorie_count = calories_per_elf(input_vec);
@@ -27,5 +27,5 @@ pub fn total_calories_for_top_3() {
         + elf_calorie_count.get(1).unwrap()
         + elf_calorie_count.get(2).unwrap();
 
-    println!("{}", top_3_elves_total);
+    println!("Day 1, problem 2: {}", top_3_elves_total);
 }
