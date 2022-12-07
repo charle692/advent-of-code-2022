@@ -4,6 +4,7 @@ mod days {
     pub mod day3;
     pub mod day4;
     pub mod day5;
+    pub mod day6;
 }
 
 mod input {
@@ -16,4 +17,5 @@ fn main() {
     days::day3::sum_of_priorities_for_duplicates();
     days::day4::day4_output();
     days::day5::day5_output();
+    days::day6::day6_output();
 }
