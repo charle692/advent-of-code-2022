@@ -5,6 +5,7 @@ mod days {
     pub mod day4;
     pub mod day5;
     pub mod day6;
+    pub mod day7;
 }
 
 mod input {
@@ -18,4 +19,5 @@ fn main() {
     days::day4::day4_output();
     days::day5::day5_output();
     days::day6::day6_output();
+    days::day7::day7_output();
 }
